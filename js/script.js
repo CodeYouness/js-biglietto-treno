@@ -1,8 +1,8 @@
 const priceForKm = '0.276';
 const userKM = prompt('quanti km vuoi fare?');
 const userAge = prompt('quanti anni hai?');
-let discountYoung = '21';
-let discountOld = '42';
+const discountYoung = '21';
+const discountOld = '42';
 let comparisonA = userAge < 18;
 let comparisonB = userAge > 65;
 let price
